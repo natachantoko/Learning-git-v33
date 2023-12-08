@@ -1,1 +1,8 @@
-*{color:red;}
+*{
+    color:red;
+
+}
+
+*, ::before; ::after; {
+    box-sizing: border-box;
+}
